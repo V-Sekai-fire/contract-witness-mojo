@@ -39,6 +39,10 @@ def main():
   - The doctest macros become `prop_check`, `prop_check_shrink` and `prop_check_seed` in `witness.check`. Each raises an `Error` holding the trial message, seed included, when a property is falsified.
 - `gen_int` and `gen_uint` give Mojo `Int` (64 bits); `gen_int64` and `gen_uint64` give `Int64` and `UInt64`.
 
+## Skills
+
+`skills/` holds two agent skills: how to add property tests to this repo, and the Mojo generics and function-value traps met while porting.
+
 ## Licence
 
 MIT, the licence of the C++ original.
